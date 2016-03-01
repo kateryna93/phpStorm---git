@@ -12,3 +12,17 @@ form {
     margin: 100px auto;
     padding: 0 10px 0 10px;
 }
+
+label {
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    display: block;
+}
+
+input {
+    width: 290px;
+    height: 25px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
