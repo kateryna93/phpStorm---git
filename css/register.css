@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 300px;
+    height: 350px;
+    background-color: chocolate;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 0 10px 0 10px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    display: block;
+}
+
+input {
+    width: 290px;
+    height: 25px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin: 25px auto;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background: #ffffff;
+    border: none;
+    color: chocolate;
+    cursor: pointer;
+}
